@@ -15,3 +15,6 @@ maintainers = [
 description = "学習用の回帰分析モデルパッケージ"
 readme = "README.md"
 license = { file = "LICENSE" }
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
