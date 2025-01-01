@@ -1,0 +1,17 @@
+[project]
+name = "pyregress"
+version = "1.0.0"
+dependencies = [
+    "numpy",
+    "scipy"
+]
+requires-python = ">= 3.8"
+authors = [
+    {name = "ueda-dev", email = "d2211020@eco.kitakyu-u.ac.jp"}
+]
+maintainers = [
+    {name = "ueda-dev", email = "d2211020@eco.kitakyu-u.ac.jp"}
+]
+description = "学習用の回帰分析モデルパッケージ"
+readme = "README.md"
+license = { file = "LICENSE" }
